@@ -1,0 +1,156 @@
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+ body{background: var(--body-bg-color);}
+ 
+
+
+
+header .logo img {
+  position: absolute;
+  width: 389px;
+  height: 94px;
+  left: 30px;
+  top: 50px;
+  margin-left: 2.5rem;
+  margin-bottom: 92px;
+}
+
+/*section*/
+
+section .container {
+  position: absolute;
+
+  width: 40rem;
+  height: 6rem;
+  left: 2.5rem;
+  top: 14.7rem;
+
+  margin-top: 36px;
+  margin-left: 2.5rem;
+}
+
+section .titulo-principal {
+  color: #04d361;
+  font-family: "Work sans" sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  width: 65rem;
+  height: 1.9rem;
+  left: 2.25rem;
+  top: 14.7rem;
+}
+
+section .sub-titulo {
+  font-family: "Spartan" sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  margin-top: 8.56px;
+}
+
+section .paragrafo-pricipal {
+  font-family: "Spartan" sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+
+  margin-top: 9px;
+}
+
+/*form*/
+
+section .formulario {
+  margin-top: 50px;
+  margin-left: 2.5rem;
+  margin-bottom: 308px;
+
+  position: absolute;
+  width: 798px;
+  height: 84px;
+  left: 36px;
+  top: 388px;
+}
+
+.paragrafo-secudario {
+  color: #a8a8a8;
+  font-family: "Spartan" sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+
+  margin-bottom: 17px;
+  margin-top: 50px;
+}
+
+input {
+  width: 49.5rem;
+  height: 3rem;
+  left: 2.2rem;
+
+  border: none;
+  border-radius: 2.5px;
+
+  filter: drop-shadow(4px 10px 15px rgba(99, 99, 99, 0.5));
+}
+
+button {
+  position: absolute;
+  background-color: var(--bg-button-color);
+
+  width: 3rem;
+  height: 3rem;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(99, 51, 138);
+}
+
+.a {
+    position: absolute;
+width: 196px;
+height: 33px;
+left: 69px;
+top: 2,5rem;
+margin-top: 600px;
+
+}
+
+.a p{
+    font-family: "Spartan" sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+    text-decoration: none;
+    color: #8257e5;
+}
+
+.a img{
+    
+    position: absolute;
+    width: 24px;
+    height: px;
+    left: 138px;
+    top: -4px;
+    padding: 5px;
+    background-color: var(--bg-button-color);
+    border-radius: 4px;
+}
